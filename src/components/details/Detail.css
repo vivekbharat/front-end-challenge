@@ -19,6 +19,21 @@
 
 .text,
 .title,
-.name {
+.name,
+.rating,
+.btn {
   padding: 10px;
+}
+
+.ratig-profile {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  /* display: flex;
+  flex-direction: row; */
+  width: 26px;
+  height: 26px;
+  color: gold;
 }
