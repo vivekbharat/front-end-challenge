@@ -7,9 +7,10 @@ import "./Detail.css";
 
 const Detail = props => {
   const { profile } = props;
+  const style = { marginLeft: "40px" };
 
   return (
-    <div className="container">
+    <div style={style}>
       <div id="box">
         {profile.map(data => (
           <div className="profile" key={data.url}>
@@ -40,7 +41,7 @@ const Detail = props => {
                 className="rating"
               />
 
-              <button className="btn btn-primary">View Profile</button>
+              <button className="btn">View Profile</button>
             </div>
             <br />
             <br />

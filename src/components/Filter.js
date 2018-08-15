@@ -17,11 +17,15 @@ class Filter extends Component {
   };
 
   render() {
+    const style = { marginLeft: "40px" };
+
     return (
-      <div className="container">
-        <div className="form-group">
+      <div style={style}>
+        <div>
           <label>
-            Newest contractors in {this.props.location},{" "}
+            Newest contractors in {this.props.location.city}
+            {", "}
+            {this.props.location.state},{" "}
             <span style={{ color: "orange" }}>
               ({this.props.count} Results)
             </span>{" "}
@@ -46,18 +50,6 @@ class Filter extends Component {
               </div>
             ) : null}
           </div>
-          {/* <input type="button" value=""/>
-          <input
-            type={type}
-            name={name}
-            className={classnames("form-control form-control-lg", {
-              "is-invalid": error
-            })}
-            placeholder={placeholder}
-            value={value}
-            onChange={onChange}
-          />
-          {error && <div className="invalid-feedback">{error}</div>} */}
         </div>
       </div>
     );

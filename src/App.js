@@ -19,7 +19,10 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Filter location="Santa Clara, Ca" count="16" />
+        <Filter
+          location={this.state.profileData[0].address}
+          count={this.state.profileData.length}
+        />
         <Details datas={this.state.profileData} />
       </div>
     );

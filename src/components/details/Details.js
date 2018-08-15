@@ -1,18 +1,24 @@
 import React, { Component } from "react";
 import Detail from "./Detail";
-import Sidebar from "./Sidebar";
+import Sidebar from "../sidebar/Sidebar";
 
 class Details extends Component {
   render() {
-    // const { datas } = this.props.datas;
-
     return (
-      <div className="row" style={{ padding: "20px 20px" }}>
-        <div className="col-md-8 col-sm-6">
-          <Detail profile={this.props.datas} />
-        </div>
-        <div className="col-md-4 col-sm-6">
-          <Sidebar />
+      <div
+        style={{
+          marginTop: "30px",
+          width: "98.5vw",
+          backgroundColor: "#F1F1F1"
+        }}
+      >
+        <div className="row">
+          <div className="col-lg-9 col-md-8 col-sm-6">
+            <Detail profile={this.props.datas} />
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6">
+            <Sidebar />
+          </div>
         </div>
       </div>
     );
