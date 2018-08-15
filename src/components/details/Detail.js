@@ -7,7 +7,7 @@ import "./Detail.css";
 
 const Detail = props => {
   const { profile } = props;
-  const style = { marginLeft: "40px" };
+  const style = { margin: "40px" };
 
   return (
     <div style={style}>
@@ -43,8 +43,6 @@ const Detail = props => {
 
               <button className="btn">View Profile</button>
             </div>
-            <br />
-            <br />
           </div>
         ))}
       </div>

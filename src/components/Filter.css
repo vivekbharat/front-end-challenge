@@ -23,14 +23,14 @@
   padding: 20px 20px;
 }
 
-/* .dropdown-content a:hover {
+.dropdown-content a:hover {
   background-color: #f1f1f1;
   cursor: pointer;
 }
 
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
-} */
+}
 
 .dropdown:hover .dropdown-content {
   display: block;

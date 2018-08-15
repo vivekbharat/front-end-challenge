@@ -8,6 +8,8 @@
   height: 100%;
   overflow: hidden;
   background-color: white;
+  margin-right: 26px;
+  padding-bottom: 10px;
 }
 
 .profile-image {
@@ -20,6 +22,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 25px;
+  /* margin-right: 20px; */
 }
 
 .text,
