@@ -16,8 +16,16 @@ class Filter extends Component {
     this.setState({ showItems: !this.state.showItems });
   };
 
+  setPopularFilter = () => {
+    this.props.sortByPopular();
+  };
+
+  setRateFilter = () => {
+    this.props.sortByRate();
+  };
+
   render() {
-    const style = { marginLeft: "40px" };
+    const style = { marginLeft: "40px", fontSize: "1rem" };
 
     return (
       <div style={style}>
@@ -30,7 +38,8 @@ class Filter extends Component {
               ({this.props.count} Results)
             </span>{" "}
           </label>
-          <hr />
+
+          {/* <br /> */}
           <div className="dropdown">
             <button className="dropdown-button" onClick={this.showMenu}>
               Sort By
@@ -43,7 +52,7 @@ class Filter extends Component {
                     {" "}
                     <li className="list-group-item">Top Rated</li>
                   </a>
-                  <a onClikc={this.setPopulatFilter}>
+                  <a onClick={this.setPopularFilter}>
                     <li className="list-group-item">Most Popular</li>
                   </a>
                 </ul>

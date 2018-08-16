@@ -2,22 +2,17 @@ import React from "react";
 import "./Sidebar.css";
 const Sidebar = () => {
   return (
-    <div
-      style={{
-        backgroundColor: "#fff",
-        width: "300px"
-      }}
-    >
+    <div class="sidepane-container">
       <div id="sidepane">
         <ul>
-          <li>Home</li>
-          <li>Welness</li>
-          <li>Consulting</li>
-          <li>Automotive</li>
-          <li>Events</li>
-          <li>Tech</li>
-          <li>Pets</li>
-          <li>Education</li>
+          <li id="sidepane-item">Home</li>
+          <li id="sidepane-item">Welness</li>
+          <li id="sidepane-item">Consulting</li>
+          <li id="sidepane-item">Automotive</li>
+          <li id="sidepane-item">Events</li>
+          <li id="sidepane-item">Tech</li>
+          <li id="sidepane-item">Pets</li>
+          <li id="sidepane-item">Education</li>
         </ul>
       </div>
     </div>
