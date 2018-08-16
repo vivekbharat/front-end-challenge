@@ -31,26 +31,7 @@ class App extends Component {
     this.setState({ profileData: data2, setPopularFilter: true });
   };
 
-  //   sort = (type) => {
-  //     const data = [...this.state.profileData];
-  //     if(type === 'averageRating')
-  // data.sort((a,b) => b.type - a.type);
-
-  //   }
-
-  // componentWillUpdate(nextProps, nextState) {
-  //   this.sortByRateFilter();
-  // }
-
-  // componentWillMount() {
-  //   this.sortByRateFilter();
-  //   // console.log("Component will mount", this.state.setRateFilter);
-  // }
-
-  // componentWillMount() {}
-
   render() {
-    // console.log(this.state.profileData);
     const logoUrl = "https://troolr.com/assets/graphics/logo-small.png";
     const navSecondaryContents = {
       location: "location",

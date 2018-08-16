@@ -13,8 +13,8 @@ const Header = ({ url, navbarContents }) => {
             style={{
               width: "10vw",
               height: "4vw",
-              paddingTop: "0.5vw",
-              paddingBottom: "0.4vw"
+              paddingTop: "0.5vw"
+              // paddingBottom: "0.4vw"
             }}
           />
         </div>
@@ -25,12 +25,12 @@ const Header = ({ url, navbarContents }) => {
       >
         <div>
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item" style={{ padding: "3vw 1vw" }}>
+            <li className="nav-item" style={{ padding: "1vw" }}>
               <i className="fas fa-globe-americas" />
               {""} {navbarContents.location}
             </li>
 
-            <li className="nav-item" style={{ padding: "3vw 1vw" }}>
+            <li className="nav-item" style={{ padding: "1vw" }}>
               <i className="fas fa-list-ul" />
               {""} {navbarContents.categories}
             </li>
