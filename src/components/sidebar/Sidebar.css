@@ -1,11 +1,6 @@
 ul {
   list-style-type: none;
   padding: 0;
-  /* border: 1px solid #ddd; */
-}
-
-.sidepane-container {
-  /* background-color: white; */
 }
 
 ul li {
@@ -13,13 +8,11 @@ ul li {
   padding: 1vw 2vw;
   margin: 10px;
   margin-left: 2vw;
-  /* justify-content: center; */
   font-size: 20px;
   border-bottom: 1px solid #ddd;
 }
 
 #sidepane-item:hover {
-  /* border-bottom: none; */
   background-color: beige;
   cursor: pointer;
 }
@@ -27,12 +20,11 @@ ul li {
 #sidepane {
   position: absolute;
   background-color: white;
-  height: 90h;
-  width: 18vw;
+  height: 100vh;
+  width: 20vw;
   margin-top: 30px;
-  /* margin-right: 0px; */
 }
 
-#sidepane-container {
+.sidepane-container {
   overflow: hidden;
 }

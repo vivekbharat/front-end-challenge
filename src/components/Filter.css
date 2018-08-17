@@ -2,7 +2,7 @@
   background-color: #4caf50;
   color: white;
   padding: 1rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   border: none;
   cursor: pointer;
   width: 14vw;
@@ -18,28 +18,30 @@
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-
   min-width: 14vw;
   box-shadow: 1vw 1vw 2vw 0.2vw rgba(0, 0, 0, 0.2);
   z-index: 1;
-  /* padding: 0.5vw; */
 }
 
 .dropdown-content ul li:hover {
-  /* background-color: #f1f1f1; */
   cursor: pointer;
-  /* background-color: beige; */
 }
-
-/* li:last-child:hover {
-  margin-bottom: 1vw;
-} */
 
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
-  /* background-color: beige; */
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 767) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
 }

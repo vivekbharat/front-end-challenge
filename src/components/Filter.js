@@ -7,7 +7,8 @@ class Filter extends Component {
     super();
 
     this.state = {
-      showItems: false
+      showItems: false,
+      sortBy: ""
     };
   }
 
@@ -18,31 +19,42 @@ class Filter extends Component {
 
   setPopularFilter = () => {
     this.props.sortByPopular();
+    this.setState({ sortBy: "Most Popular" });
   };
 
   setRateFilter = () => {
     this.props.sortByRate();
+    this.setState({ sortBy: "Top Rated" });
   };
 
   render() {
     const style = { marginLeft: "40px", fontSize: "1rem" };
 
+    const {
+      location: { city, state },
+      count
+    } = this.props;
+
+    let sortName = "";
+    const { sortBy } = this.state;
+    if (sortBy === "Top Rated") {
+      sortName = "(Top Rated)";
+    } else if (sortBy === "Most Popular") {
+      sortName = "(Most Popular)";
+    }
+
     return (
       <div style={style}>
         <div>
           <label>
-            Newest contractors in {this.props.location.city}
+            Newest contractors in {city}
             {", "}
-            {this.props.location.state},{" "}
-            <span style={{ color: "orange" }}>
-              ({this.props.count} Results)
-            </span>{" "}
+            {state}, <span style={{ color: "orange" }}>({count} Results)</span>{" "}
           </label>
 
-          {/* <br /> */}
           <div className="dropdown">
             <button className="dropdown-button" onClick={this.showMenu}>
-              Sort By
+              Sort By {sortName === "" ? null : sortName}
             </button>
 
             {this.state.showItems ? (

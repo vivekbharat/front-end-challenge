@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+import "./App.css";
 import Header from "./components/Header";
 import Filter from "./components/Filter";
 import Details from "./components/details/Details";

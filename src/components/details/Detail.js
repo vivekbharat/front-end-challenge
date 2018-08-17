@@ -22,9 +22,7 @@ const Detail = props => {
                 />
               }
               <strong className="text title">{data.title}</strong>
-              <span className="text name" style={{ display: "block" }}>
-                {data.name}
-              </span>
+              <span className="text name">{data.name}</span>
 
               <span className="text location">
                 {data.address.city}

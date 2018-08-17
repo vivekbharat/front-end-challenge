@@ -17,6 +17,10 @@
   display: block;
 }
 
+.name {
+  padding-top: 2px !important;
+}
+
 #box {
   display: flex;
   flex-direction: row;
@@ -30,7 +34,7 @@
 .name,
 .rating,
 .btn {
-  padding: 10px;
+  padding: 4px;
   display: block;
 }
 
@@ -55,10 +59,11 @@
   /*margin: 50px; */
 }
 
-@media only screen and (max-width: 1441px) {
+@media only screen and (max-width: 1408px) {
   .rating-profile {
     display: flex;
     flex-direction: row;
+    padding: 4px;
   }
   .profile {
     display: inline-block;
@@ -70,21 +75,122 @@
     height: 100%;
     overflow: hidden;
     background-color: white;
-    margin-right: 26px;
+    margin-right: 10px;
     padding-bottom: 10px;
+  }
+
+  #box {
+    display: flex;
+    flex-direction: row !important;
+  }
+  .icon {
+    width: 23px;
+    height: 23px;
+    color: gold;
+  }
+  .btn {
+    /* display: block; */
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: #337ab7;
+    margin-left: 25px;
+    text-align: center;
+    font-size: 15px;
+    /*margin: 50px; */
   }
 }
 
-/* @media (-webkit-min-device-pixel-ratio: 1.5),
-  (min-resolution: 144dpi),
-  only screen and (-webkit-min-device-pixel-ratio: 1.5),
-  only screen and (min-resolution: 1.5dppx) {
-} */
+@media only screen and (max-width: 1289px) {
+  .rating-profile {
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+  }
+  .profile {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px #ccc;
+    width: 20vw;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+    margin-right: 10px;
+    padding-bottom: 10px;
+  }
+
+  #box {
+    display: flex;
+    flex-direction: row !important;
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+    color: gold;
+  }
+  .btn {
+    /* display: block; */
+    width: 95px;
+    height: 35px;
+    border-radius: 10px;
+    color: white;
+    background-color: #337ab7;
+    margin-left: 25px;
+    text-align: center;
+    font-size: 13px;
+    /*margin: 50px; */
+  }
+}
+@media only screen and (max-width: 1189px) {
+  .rating-profile {
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+  }
+  .profile {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px #ccc;
+    width: 20vw;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+    margin-right: 10px;
+    padding-bottom: 10px;
+  }
+
+  #box {
+    display: flex;
+    flex-direction: row !important;
+  }
+  .icon {
+    width: 15px;
+    height: 15px;
+    color: gold;
+  }
+  .btn {
+    /* display: block; */
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: #337ab7;
+    margin-left: 25px;
+    text-align: center;
+    font-size: 15px;
+    /*margin: 50px; */
+  }
+}
 
 @media only screen and (max-width: 1068px) {
   .rating-profile {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   .profile {
     display: inline-block;
@@ -99,39 +205,115 @@
     margin-right: 10px;
     padding-bottom: 10px;
   }
+  .icon {
+    width: 24px;
+    height: 24px;
+    color: gold;
+  }
+  .btn {
+    /* display: block; */
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: #337ab7;
+    margin-left: 25px;
+    text-align: center;
+    font-size: 15px;
+    /*margin: 50px; */
+  }
 }
 
-/* @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
-  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
-  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
-} */
+@media only screen and (max-width: 991px) {
+  .rating-profile {
+    display: flex;
+    flex-direction: row;
+    /* flex-shrink: inherit; */
+  }
+  .profile {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px #ccc;
+    width: 25vw;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+    margin-right: 10px;
+    padding-bottom: 10px;
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+    color: gold;
+  }
+  .btn {
+    width: 95px;
+    height: 35px;
+    border-radius: 10px;
+    color: white;
+    background-color: #337ab7;
+    margin-left: 25px;
+    text-align: center;
+    font-size: 15px;
+  }
+}
 
-@media only screen and (max-width: 790px) {
+@media only screen and (max-width: 829px) {
   .rating-profile {
     display: flex;
     flex-direction: column;
   }
   .profile {
-    display: inline-block;
-    /* margin: 13px; */
-    border: 1px solid #eee;
-    border-radius: 4px;
-    box-shadow: 0 1px 2px #ccc;
-    width: 25vw;
-    height: 100%;
-    overflow: hidden;
-    background-color: white;
-    margin-right: 6px;
-    padding-bottom: 10px;
+    width: 24vw;
   }
+
+  .btn {
+    padding: 1vw;
+    margin: 1vw;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .rating-profile {
+    display: flex;
+    flex-direction: column;
+  }
+  .profile {
+    width: 25vw;
+  }
+
   #box {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 25px;
-    /* margin-right: 20px; */
+    /* flex-wrap: wrap; */
+  }
+
+  .btn {
+    padding: 1vw;
+    margin: 1vw;
   }
 }
+/* 
+.grid-third .grid-left {
+  flex-basis: 1/5
+}
+.grid-third .grid-right {
+  flex-basis: 9/13
+}
+.grid-two-third .grid-left {
+  flex-basis: 1/9
+}
+.grid-two-third .grid-right {
+  flex-basis: 5/13
+}
+.grid-half .grid-left {
+  flex-basis: 1/7
+}
+.grid-half .grid-right {
+  flex-basis: 7/13
+} */
 
 /* @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
   only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
@@ -141,34 +323,33 @@
 @media only screen and (max-width: 575px) {
   .rating-profile {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /* flex-wrap: nowrap; */
   }
 
   .profile {
     display: "block";
-    margin: 10px;
-    margin-left: 10%;
+    margin: 4px;
+    margin-left: 5%;
     border: 1px solid #eee;
     border-radius: 4px;
     box-shadow: 0 2px 2px #ccc;
-    width: 70vw;
+    width: 55vw;
     height: 100%;
     overflow: hidden;
     background-color: white;
     margin-right: 2px;
     padding-bottom: 10px;
   }
-}
-
-@media only screen and (max-width: 354px) {
   #box {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 25px;
   }
+}
 
+@media only screen and (max-width: 354px) {
   .rating-profile {
     display: flex;
     flex-direction: column;

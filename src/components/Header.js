@@ -1,7 +1,7 @@
 import React from "react";
 import Auxl from "../hoc/Auxl";
 
-const Header = ({ url, navbarContents }) => {
+const Header = ({ url, navbarContents: { location, categories } }) => {
   // const style = { marginLeft: "20px", marginRight: "10px" };
   return (
     <Auxl>
@@ -11,10 +11,9 @@ const Header = ({ url, navbarContents }) => {
             src={url}
             alt="Logo"
             style={{
-              width: "10vw",
+              width: "12vw",
               height: "4vw",
               paddingTop: "0.5vw"
-              // paddingBottom: "0.4vw"
             }}
           />
         </div>
@@ -25,14 +24,14 @@ const Header = ({ url, navbarContents }) => {
       >
         <div>
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item" style={{ padding: "1vw" }}>
+            <li className="nav-item" style={{ padding: "1.6vw" }}>
               <i className="fas fa-globe-americas" />
-              {""} {navbarContents.location}
+              {""} {location}
             </li>
 
-            <li className="nav-item" style={{ padding: "1vw" }}>
+            <li className="nav-item" style={{ padding: "1.6vw" }}>
               <i className="fas fa-list-ul" />
-              {""} {navbarContents.categories}
+              {""} {categories}
             </li>
           </ul>
         </div>

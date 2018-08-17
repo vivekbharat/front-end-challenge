@@ -1,8 +1,9 @@
 import React from "react";
+
 import "./Sidebar.css";
 const Sidebar = () => {
   return (
-    <div class="sidepane-container">
+    <div className="sidepane-container">
       <div id="sidepane">
         <ul>
           <li id="sidepane-item">Home</li>
