@@ -68,17 +68,3 @@ ul {
     width: auto;
   }
 }
-
-/*
-
-@media only screen and (max-width: 411px) {
-  .dropdown-button {
-    background-color: #4caf50;
-    color: white;
-    padding: 1rem;
-    font-size: 0.7rem;
-    border: none;
-    cursor: pointer;
-    width: 40vw;
-  }
-} */

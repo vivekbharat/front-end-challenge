@@ -1,8 +1,6 @@
 .navbar1 {
   height: 15vh;
   background-color: white;
-  /* padding: 1vw;
-  margin: 1.2vh; */
 }
 
 .logo {
@@ -99,7 +97,6 @@ header nav li {
     width: 25vw;
     height: 8vw;
     margin-top: 3vh;
-    /* padding: 0.2rem; */
   }
   .navbar1 {
     height: auto;
@@ -142,28 +139,6 @@ header nav li {
     padding: 0 2rem;
   }
 }
-/* 
-@media only screen and (max-width: 360px) {
-  .logo {
-    width: 20vw;
-    height: 7vh;
-    margin-top: 2vh;
-    padding: 0.4vw;
-  }
-  .navbar2 {
-    height: auto;
-    width: 100vw;
-    font-size: 1rem;
-    padding: 3vw;
-    display: flex;
-    flex-direction: row;
-    padding: 0 1rem;
-  }
-
-  .navbar1 {
-    height: auto;
-  }
-} */
 
 @media only screen and (max-width: 360px) {
   .logo {

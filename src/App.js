@@ -18,15 +18,12 @@ class App extends Component {
   }
 
   sortByRateFilter = () => {
-    // this.setState({ setRateFilter: true });
-    // console.log(this.state.setRateFilter);
     const data = [...this.state.profileData];
     data.sort((a, b) => b.averageRating - a.averageRating);
     this.setState({ profileData: data, setRateFilter: true });
   };
 
   sortByPopularFilter = () => {
-    // this.setState({ setPopularFilter: true });
     const data2 = [...this.state.profileData];
     data2.sort((a, b) => b.views.length - a.views.length);
     this.setState({ profileData: data2, setPopularFilter: true });

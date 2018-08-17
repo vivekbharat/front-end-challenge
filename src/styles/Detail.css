@@ -43,15 +43,12 @@
 }
 
 .icon {
-  /* display: flex;
-  flex-direction: row; */
   width: 26px;
   height: 26px;
   color: gold;
 }
 
 .btn {
-  /* display: block; */
   width: 100px;
   height: 40px;
   border-radius: 10px;
@@ -60,7 +57,6 @@
   margin-left: 25px;
   text-align: center;
   font-size: 15px;
-  /*margin: 50px; */
 }
 
 @media only screen and (max-width: 1408px) {
@@ -102,7 +98,6 @@
     margin-left: 25px;
     text-align: center;
     font-size: 15px;
-    /*margin: 50px; */
   }
 }
 
@@ -178,7 +173,6 @@
     color: gold;
   }
   .btn {
-    /* display: block; */
     width: 100px;
     height: 40px;
     border-radius: 10px;
@@ -187,7 +181,6 @@
     margin-left: 25px;
     text-align: center;
     font-size: 15px;
-    /*margin: 50px; */
   }
 }
 
@@ -215,7 +208,6 @@
     color: gold;
   }
   .btn {
-    /* display: block; */
     width: 100px;
     height: 40px;
     border-radius: 10px;
@@ -224,7 +216,6 @@
     margin-left: 25px;
     text-align: center;
     font-size: 15px;
-    /*margin: 50px; */
   }
 }
 
@@ -232,7 +223,6 @@
   .rating-profile {
     display: flex;
     flex-direction: row;
-    /* flex-shrink: inherit; */
   }
   .profile {
     display: inline-block;
@@ -320,30 +310,6 @@
     width: 30vw;
   }
 }
-/* 
-.grid-third .grid-left {
-  flex-basis: 1/5
-}
-.grid-third .grid-right {
-  flex-basis: 9/13
-}
-.grid-two-third .grid-left {
-  flex-basis: 1/9
-}
-.grid-two-third .grid-right {
-  flex-basis: 5/13
-}
-.grid-half .grid-left {
-  flex-basis: 1/7
-}
-.grid-half .grid-right {
-  flex-basis: 7/13
-} */
-
-/* @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
-  only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
-  only screen and (max-width: 735px) and (min-resolution: 144dpi) {
-} */
 @media only screen and (max-width: 607px) {
   .profile {
     width: 100vw;
@@ -357,7 +323,6 @@
   .rating-profile {
     display: flex;
     flex-direction: column;
-    /* flex-wrap: nowrap; */
   }
 
   .profile {

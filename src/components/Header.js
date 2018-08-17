@@ -3,7 +3,6 @@ import Auxl from "../hoc/Auxl";
 import "../styles/Header.css";
 
 const Header = ({ url, navbarContents: { location, categories } }) => {
-  // const style = { marginLeft: "20px", marginRight: "10px" };
   return (
     <Auxl>
       <nav className="navbar1">
