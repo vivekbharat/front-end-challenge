@@ -39,7 +39,7 @@ header nav li {
   .logo {
     width: 15vw;
     height: 5vw;
-    margin: 1.2rem;
+    margin: 1.5rem;
   }
 
   .navbar2 {
@@ -54,14 +54,14 @@ header nav li {
     margin: 0 1vw;
   }
   .logo {
-    width: 15vw;
+    width: 13vw;
     height: 7vh;
     margin: 0.8rem;
   }
   .navbar2 {
-    height: 5vh;
+    height: auto;
     width: 100vw;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     display: flex;
     flex-direction: row;
     padding: 0 2rem;
@@ -75,18 +75,6 @@ header nav li {
   }
 }
 
-@media only screen and (max-width: 1289px) {
-  .navbar2 {
-    font-size: 1.3rem;
-  }
-  .logo {
-    margin: 0.5rem;
-  }
-  header nav li {
-    margin: 0.8vh 1.5vw;
-  }
-}
-
 @media only screen and (max-width: 1024px) {
   .logo {
     width: 15vw;
@@ -94,12 +82,15 @@ header nav li {
     margin-top: 2vh;
   }
   .navbar2 {
-    height: 10vh;
+    height: auto;
     width: 100vw;
     font-size: 1.4rem;
     padding: 2vw;
     display: flex;
     flex-direction: row;
+  }
+  .navbar {
+    height: auto;
   }
 }
 
@@ -114,7 +105,7 @@ header nav li {
     height: auto;
     background-color: white;
     padding: 1vw;
-    margin: 1.2vh;
+    margin: 1vh;
   }
   .navbar2 {
     height: auto;
@@ -123,6 +114,9 @@ header nav li {
     padding: 3vw;
     display: flex;
     flex-direction: row;
+  }
+  header nav li {
+    margin: 1vh 2vw;
   }
 }
 
@@ -148,7 +142,7 @@ header nav li {
     padding: 0 2rem;
   }
 }
-
+/* 
 @media only screen and (max-width: 360px) {
   .logo {
     width: 20vw;
@@ -169,12 +163,12 @@ header nav li {
   .navbar1 {
     height: auto;
   }
-}
+} */
 
-@media only screen and (max-width: 235px) {
+@media only screen and (max-width: 360px) {
   .logo {
-    width: 30vw;
-    height: 8vh;
+    width: 45vw;
+    height: 10vh;
     margin: auto;
     padding: 0.4vw;
     display: flex;

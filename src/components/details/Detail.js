@@ -3,7 +3,7 @@ import Rating from "react-rating";
 import starGrey from "../../images/star-grey.png";
 import starYellow from "../../images/star-yellow.png";
 
-import "./Detail.css";
+import "../../styles/Detail.css";
 
 const Detail = props => {
   const { profile } = props;

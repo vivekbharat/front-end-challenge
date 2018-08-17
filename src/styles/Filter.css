@@ -40,9 +40,6 @@ ul {
   list-style-type: none;
 }
 
-@media only screen and (max-width: 1366px) {
-}
-
 @media only screen and (max-width: 767px) {
   .row {
     display: flex;
@@ -59,7 +56,7 @@ ul {
     width: 24vw;
   }
 }
-/* 
+
 @media only screen and (max-width: 360px) {
   .dropdown-button {
     background-color: #4caf50;
@@ -68,9 +65,11 @@ ul {
     font-size: 0.7rem;
     border: none;
     cursor: pointer;
-    width: 30vw;
+    width: auto;
   }
 }
+
+/*
 
 @media only screen and (max-width: 411px) {
   .dropdown-button {

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Detail from "./Detail";
 import Sidebar from "../sidebar/Sidebar";
 
-import "./Details.css";
+import "../../styles/Details.css";
 
 class Details extends Component {
   render() {
