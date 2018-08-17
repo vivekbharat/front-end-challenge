@@ -35,8 +35,8 @@ class App extends Component {
   render() {
     const logoUrl = "https://troolr.com/assets/graphics/logo-small.png";
     const navSecondaryContents = {
-      location: "location",
-      categories: "categories"
+      location: "Locations",
+      categories: "Categories"
     };
     return (
       <div className="App">

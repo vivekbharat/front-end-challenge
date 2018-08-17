@@ -1,0 +1,197 @@
+.navbar1 {
+  height: 15vh;
+  background-color: white;
+  /* padding: 1vw;
+  margin: 1.2vh; */
+}
+
+.logo {
+  width: 12vw;
+  height: 4vw;
+  padding-top: 0.5vw;
+}
+
+ul,
+nav {
+  list-style: none;
+}
+
+.navbar2 {
+  background-color: #5cb85c;
+  height: 6vh;
+  color: white;
+  font-size: 1.2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 0 2rem;
+}
+
+header nav li {
+  margin: 1vh 1vw;
+}
+
+@media only screen and (min-width: 1408px) {
+  .navbar1 {
+    height: auto;
+  }
+
+  .logo {
+    width: 15vw;
+    height: 5vw;
+    margin: 1.2rem;
+  }
+
+  .navbar2 {
+    font-size: 1.5rem;
+    height: auto;
+    padding: 0 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 1408px) {
+  header nav li {
+    margin: 0 1vw;
+  }
+  .logo {
+    width: 15vw;
+    height: 7vh;
+    margin: 0.8rem;
+  }
+  .navbar2 {
+    height: 5vh;
+    width: 100vw;
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: row;
+    padding: 0 2rem;
+  }
+  .navbar1 {
+    height: 10vh;
+  }
+
+  header nav li {
+    margin: 0.8vh 1.5vw;
+  }
+}
+
+@media only screen and (max-width: 1289px) {
+  .navbar2 {
+    font-size: 1.3rem;
+  }
+  .logo {
+    margin: 0.5rem;
+  }
+  header nav li {
+    margin: 0.8vh 1.5vw;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .logo {
+    width: 15vw;
+    height: 6vh;
+    margin-top: 2vh;
+  }
+  .navbar2 {
+    height: 10vh;
+    width: 100vw;
+    font-size: 1.4rem;
+    padding: 2vw;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 25vw;
+    height: 8vw;
+    margin-top: 3vh;
+    /* padding: 0.2rem; */
+  }
+  .navbar1 {
+    height: auto;
+    background-color: white;
+    padding: 1vw;
+    margin: 1.2vh;
+  }
+  .navbar2 {
+    height: auto;
+    width: 100vw;
+    font-size: 1.3rem;
+    padding: 3vw;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+  .logo {
+    width: 25vw;
+    height: 8vh;
+    margin-top: 1.2vh;
+  }
+  .navbar1 {
+    height: auto;
+    background-color: white;
+    padding: 2vw;
+    margin: 1vh;
+  }
+  .navbar2 {
+    height: auto;
+    width: 100vw;
+    font-size: 1.3rem;
+    padding: 4vw;
+    display: flex;
+    flex-direction: row;
+    padding: 0 2rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .logo {
+    width: 20vw;
+    height: 7vh;
+    margin-top: 2vh;
+    padding: 0.4vw;
+  }
+  .navbar2 {
+    height: auto;
+    width: 100vw;
+    font-size: 1rem;
+    padding: 3vw;
+    display: flex;
+    flex-direction: row;
+    padding: 0 1rem;
+  }
+
+  .navbar1 {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 235px) {
+  .logo {
+    width: 30vw;
+    height: 8vh;
+    margin: auto;
+    padding: 0.4vw;
+    display: flex;
+  }
+  .navbar2 {
+    height: auto;
+    width: 100vw;
+    font-size: 1rem;
+    padding: 3vw;
+    display: flex;
+    flex-direction: row;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar1 {
+    height: auto;
+  }
+}

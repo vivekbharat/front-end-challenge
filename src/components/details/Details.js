@@ -10,10 +10,10 @@ class Details extends Component {
       <div className="cont">
         <div className="row">
           <div className="container-box">
-            <div className="col-lg-9 col-md-8 col-sm-9 .sm-767-1">
+            <div className="col-lg-9 col-md-8 col-sm-9">
               <Detail profile={this.props.datas} />
             </div>
-            <div className="col-lg-3 col-md-4 col-sm-3 .sm-767-2">
+            <div className="col-lg-3 col-md-4 col-sm-3">
               <Sidebar />
             </div>
           </div>

@@ -7,10 +7,10 @@ import "./Detail.css";
 
 const Detail = props => {
   const { profile } = props;
-  const style = { margin: "40px" };
+
   if (profile) {
     return (
-      <div style={style}>
+      <div className="detail-container">
         <div id="box">
           {profile.map(data => (
             <div className="profile" key={data.url}>
@@ -39,7 +39,6 @@ const Detail = props => {
                   }
                   initialRating={data.averageRating}
                   readonly
-                  // fractions={2}
                   className="rating"
                 />
 

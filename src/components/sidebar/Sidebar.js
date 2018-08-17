@@ -1,10 +1,10 @@
 import React from "react";
-
 import "./Sidebar.css";
+
 const Sidebar = () => {
   return (
     <div className="sidepane-container">
-      <div id="sidepane">
+      <div className="sidepane">
         <ul>
           <li id="sidepane-item">Home</li>
           <li id="sidepane-item">Welness</li>
